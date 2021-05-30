@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "not_founds",
+  "info": {
+    "name": "Not Found",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.introduction",
+      "required": true
+    }
+  }
+}
