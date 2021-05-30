@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "wysiwyg",
-    "icon": "plug",
-    "description": "Description of wysiwyg plugin."
+    "name": "WYSIWYG",
+    "icon": "paragraph",
+    "description": "WYSIWYG HTML Editor"
   },
   "dependencies": {},
   "author": {
