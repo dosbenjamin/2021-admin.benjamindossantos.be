@@ -1,1 +1,1 @@
-web: npm run build; npm run develop
+web: npm run develop
