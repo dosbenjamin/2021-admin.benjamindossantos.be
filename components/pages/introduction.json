@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pages_introductions",
+  "info": {
+    "name": "Introduction",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Benjamin Dos Santos"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
