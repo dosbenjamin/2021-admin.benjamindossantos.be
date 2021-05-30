@@ -27,26 +27,26 @@ export default strapi => {
     name,
     preventComponentRendering: false,
     trads,
-    menu: {
-      pluginsSectionLinks: [
-        {
-          destination: `/plugins/${pluginId}`,
-          icon,
-          label: {
-            id: `${pluginId}.plugin.name`,
-            defaultMessage: name,
-          },
-          name,
-          permissions: [
-            // Uncomment to set the permissions of the plugin here
-            // {
-            //   action: '', // the action name should be plugins::plugin-name.actionType
-            //   subject: null,
-            // },
-          ],
-        },
-      ],
-    },
+    // menu: {
+    //   pluginsSectionLinks: [
+    //     {
+    //       destination: `/plugins/${pluginId}`,
+    //       icon,
+    //       label: {
+    //         id: `${pluginId}.plugin.name`,
+    //         defaultMessage: name,
+    //       },
+    //       name,
+    //       permissions: [
+    //         // Uncomment to set the permissions of the plugin here
+    //         // {
+    //         //   action: '', // the action name should be plugins::plugin-name.actionType
+    //         //   subject: null,
+    //         // },
+    //       ],
+    //     },
+    //   ],
+    // },
   };
 
   strapi.registerField({ type: 'wysiwyg', Component: Wysiwyg });
