@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_pages_introductions",
+  "collectionName": "components_pages_headers",
   "info": {
     "name": "Header",
     "icon": "align-justify",
@@ -15,13 +15,13 @@
     "subtitle": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
-    },
     "link": {
       "type": "component",
       "repeatable": false,
       "component": "pages.link"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

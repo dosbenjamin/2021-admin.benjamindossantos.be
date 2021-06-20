@@ -15,7 +15,7 @@
     "header": {
       "type": "component",
       "repeatable": false,
-      "component": "pages.introduction",
+      "component": "pages.header",
       "required": true
     }
   }
