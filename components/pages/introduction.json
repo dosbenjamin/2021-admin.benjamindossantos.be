@@ -1,8 +1,9 @@
 {
   "collectionName": "components_pages_introductions",
   "info": {
-    "name": "Introduction",
-    "icon": "align-justify"
+    "name": "Header",
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,8 +12,16 @@
       "required": true,
       "default": "Benjamin Dos Santos"
     },
-    "content": {
-      "type": "richtext"
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.link"
     }
   }
 }

@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "introduction": {
+    "header": {
       "type": "component",
       "repeatable": false,
       "component": "pages.introduction",
