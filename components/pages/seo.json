@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_pages_seos",
+  "info": {
+    "name": "SEO",
+    "icon": "globe",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "maxLength": 60,
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 160,
+      "required": true
+    }
+  }
+}
