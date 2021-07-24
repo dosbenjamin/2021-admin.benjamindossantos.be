@@ -15,13 +15,13 @@
     "header": {
       "type": "component",
       "repeatable": false,
-      "component": "pages.header",
+      "component": "shared.header",
       "required": true
     },
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "pages.seo"
+      "component": "shared.seo"
     }
   }
 }

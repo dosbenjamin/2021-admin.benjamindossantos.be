@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_pages_headers",
+  "collectionName": "components_shared_headers",
   "info": {
     "name": "Header",
     "icon": "align-justify",
@@ -18,7 +18,7 @@
     "link": {
       "type": "component",
       "repeatable": false,
-      "component": "pages.link"
+      "component": "shared.link"
     },
     "description": {
       "type": "richtext"
