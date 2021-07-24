@@ -15,13 +15,13 @@
     "subtitle": {
       "type": "string"
     },
+    "description": {
+      "type": "richtext"
+    },
     "link": {
       "type": "component",
       "repeatable": false,
       "component": "shared.link"
-    },
-    "description": {
-      "type": "richtext"
     }
   }
 }
