@@ -18,11 +18,6 @@
       "component": "shared.header",
       "required": true
     },
-    "socials": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.link"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
